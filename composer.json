@@ -1,10 +1,10 @@
 {
-  "name": "johan-code/backpack-image-uploader",
+  "name": "johan-code/backpack-ckeditor",
   "type": "library",
-  "description": "uploader images with preview for backpack crud",
+  "description": "backpack laravel widget ckeditor with custom options",
   "license": "MIT",
-  "keywords": ["backpack","laravel","image"],
-  "homepage": "https://github.com/johangit/backpack-image-uploader",
+  "keywords": ["backpack","laravel","ckeditor"],
+  "homepage": "https://github.com/johangit/backpack-ckeditor",
   "authors": [
     {
       "name": "johan",
@@ -13,13 +13,13 @@
   ],
   "autoload": {
     "psr-4": {
-      "JohanCode\\BackpackImageUploader\\": "src"
+      "JohanCode\\BackpackCkeditor\\": "src"
     }
   },
   "extra": {
     "laravel": {
       "providers": [
-        "JohanCode\\BackpackImageUploader\\ServiceProvider"
+        "JohanCode\\BackpackCkeditor\\ServiceProvider"
       ]
     }
   }
