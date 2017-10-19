@@ -1,0 +1,22 @@
+body {
+    font-family: sans-serif;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.video-in-content {
+    border: 2px solid yellowgreen;
+    padding: 5px;
+    text-align: center;
+}
+
+img {
+    width: 100%;
+    max-width: 800px;
+}
+
+blockquote {
+    display: block;
+    padding: 2px 10px;
+    border-left: solid #ccc 4px;
+}

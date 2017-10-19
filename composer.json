@@ -1,0 +1,26 @@
+{
+  "name": "johan-code/backpack-image-uploader",
+  "type": "library",
+  "description": "uploader images with preview for backpack crud",
+  "license": "MIT",
+  "keywords": ["backpack","laravel","image"],
+  "homepage": "https://github.com/johangit/backpack-image-uploader",
+  "authors": [
+    {
+      "name": "johan",
+      "email": "misha2web@yandex.ru"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "JohanCode\\BackpackImageUploader\\": "src"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "JohanCode\\BackpackImageUploader\\ServiceProvider"
+      ]
+    }
+  }
+}
