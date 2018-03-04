@@ -14,7 +14,7 @@ CKEDITOR.editorConfig = function (config) {
     //         {name: 'basicstyles', items: ['RemoveFormat', '-', 'Bold', 'Italic', 'Underline', 'Strike', '-', 'Subscript', 'Superscript']},
     //         {name: 'paragraph', items: ['NumberedList', 'BulletedList', '-', 'JustifyLeft', 'JustifyCenter', 'JustifyRight', 'JustifyCenter']},
     //         {name: 'styles', items: ['Format', 'Blockquote']},
-    //         // {name: 'additional', items: ['ZooAdditionalContent']},
+    //         // {name: 'additional', items: ['MyWidget']},
     //     ];
     // config.toolbar = 'Base';
 

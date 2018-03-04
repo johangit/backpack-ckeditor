@@ -20,3 +20,10 @@ blockquote {
     padding: 2px 10px;
     border-left: solid #ccc 4px;
 }
+
+.html-code
+{
+    font-family: monospace;
+    padding: 10px;
+    background-color: #e8e8e8;
+}
