@@ -4,11 +4,19 @@ $(function () {
 
 
     $(".js-texteditor").each(function () {
-        CKEDITOR.replace(this, {
+        var editor = CKEDITOR.replace(this, {
             filebrowserImageBrowseUrl: adminUrl + '/elfinder/ckeditor',
             // filebrowserImageUploadUrl: adminUrl + '/elfinder/connector?_token=' + token + "&cmd=upload&target=l1_Lw",
             // filebrowserBrowseUrl: adminUrl + '/elfinder/ckeditor',
             // filebrowserUploadUrl: adminUrl + '/elfinder/ckeditor'
+        });
+
+        editor.on('instanceReady', function (evt) {
+            try {
+                var textEditorVaule = window.ckeditorInitValues[$(this).attr("name")];
+                evt.editor.insertHtml(textEditorVaule);
+            } catch (e) {
+            }
         });
     });
 
