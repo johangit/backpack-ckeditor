@@ -19,7 +19,7 @@ CKEDITOR.editorConfig = function (config) {
     // config.toolbar = 'Base';
 
     // config.removeButtons = 'Paste,autoFormat,CommentSelectedRange,UncommentSelectedRange,AutoComplete,Outdent,Indent,oembed,Save,Styles,Font,FontSize,Flash';
-    config.removeButtons = 'Paste,Save,Font,FontSize,Flash,Sourcedialog,Outdent,Indent';
+    config.removeButtons = 'Paste,Save,Styles,Font,FontSize,Flash,Sourcedialog,Outdent,Indent';
 
     config.format_tags = 'h2;h3;h4;h5;h6;p';
     config.forcePasteAsPlainText = true;
